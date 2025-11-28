@@ -1,8 +1,8 @@
 import { defineConfig } from "umi";
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/day/' : '/',
-  publicPath: process.env.NODE_ENV === 'production' ? '/day/' : '/',
+  base:  '/day/',
+  publicPath:'/day/',
   history: { type: 'hash' },
   routes: [
     { path: "/", component: "index" },
