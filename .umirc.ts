@@ -8,4 +8,5 @@ export default defineConfig({
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
+  history: { type: 'hash' }, // 添加这行！
 });
